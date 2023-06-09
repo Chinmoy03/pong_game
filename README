@@ -1,0 +1,6 @@
+A few notes for the code:
+- The application is a general pong game against the wall
+- Scoreboard has not been added 
+- If one looks at the commented out section in the code, one can see that there is an option for a paddle on the right side. However, multiple events cannot take place at the same time.
+This means that two paddles cannot be operated at the same time given the current resources used in the code.
+- To tackle this problem, the right side edge of the window has been made to deflect the ball so that the player can keep playing.
